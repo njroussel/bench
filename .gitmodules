@@ -1,0 +1,9 @@
+[submodule "ext/mitsuba3"]
+	path = ext/mitsuba3
+	url = git@github.com:mitsuba-renderer/mitsuba3
+[submodule "ext/LuisaRender"]
+	path = ext/LuisaRender
+	url = git@github.com:LuisaGroup/LuisaRender
+[submodule "ext/LuisaBenchmark"]
+	path = ext/LuisaBenchmark
+	url = git@github.com:njroussel/LuisaBenchmark
