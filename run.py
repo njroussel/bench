@@ -20,7 +20,7 @@ if os.path.exists(filename):
     df = pd.read_csv(filename, index_col=False)
 
 for renderer in ['mitsuba', 'luisa']:
-    for commit in config[renderer]['commits'][:2]:
+    for commit in config[renderer]['commits']:
         # Build
         cmake_flags = ' '.join(config[renderer]['cmake_flags'])
         subprocess.run(["bash", "-e", "-c",
