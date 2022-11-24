@@ -10,12 +10,14 @@ mitsuba:
   - '-DMI_DEFAULT_VARIANTS:STRING="scalar_rgb;cuda_ad_rgb"'
   build_command: ninja
   commits:
-  - b0458bb659b5be3a404a8cbd24a2d39ad408eb39 # master, remove drjit predicates
-  - 5c071927af3e8ff7984faf181246ab96e1fdf79b # added make_opaque again
-  - 119e8ffd36561ee02aedcbec5705cd87e62b1b55 # use eval_pdf_sample
-  - 5a0f766c2ae5110bac717af660020b0574b79712 # remove make_opaque in plugins
-  - c6b40c4ff2ff88e7b0f51a2f7f3a1b4acba7aa0d # added differntiable shapes
-  - 2d7734731f902002adcb272fb7c08688e8ef64db # added OptixDenoiser
+  - 204d89b2596db256149e961e61ebaf133dec24d8 # v3.1.0
+    #  - b0458bb659b5be3a404a8cbd24a2d39ad408eb39 # master, remove drjit predicates
+    #  - 5c071927af3e8ff7984faf181246ab96e1fdf79b # added make_opaque again
+    #  - c2285ad85c8d1cf87d6fb474bcff4256df2839db # remove vcall predicates
+    #  - 119e8ffd36561ee02aedcbec5705cd87e62b1b55 # use eval_pdf_sample
+    #  - 5a0f766c2ae5110bac717af660020b0574b79712 # remove make_opaque in plugins
+    #  - c6b40c4ff2ff88e7b0f51a2f7f3a1b4acba7aa0d # added differntiable shapes
+    #  - 2d7734731f902002adcb272fb7c08688e8ef64db # added OptixDenoiser
 luisa:
   name: 'LuisaRender'
   folder: 'ext/LuisaRender'
